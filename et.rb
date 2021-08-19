@@ -46,6 +46,3 @@ class ET
     "#{getHours}:#{getMinutes}.#{getSeconds}"
   end
 end
-
-now = ET.new
-puts now.to_s
